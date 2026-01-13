@@ -581,10 +581,10 @@ input[type="range"] {
   font-weight: 600;
 }
 
-/* Responsive */
+/* Responsive Enhancements */
 @media (max-width: 1200px) {
   .dashboard-grid {
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 300px 1fr;
   }
 
   .right-panel {
@@ -599,18 +599,94 @@ input[type="range"] {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .dashboard-grid {
     grid-template-columns: 1fr;
+    padding: 0 1rem 2rem;
   }
 
   .right-panel {
+    grid-column: span 1;
     grid-template-columns: 1fr;
+  }
+
+  .export-btn {
+    grid-column: span 1;
+  }
+
+  .left-panel {
+    order: 2;
+  }
+
+  .middle-content {
+    order: 1;
+  }
+
+  .right-panel {
+    order: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    padding: 1rem;
   }
 
   .header-content {
     flex-direction: column;
+    align-items: stretch;
     gap: 1.5rem;
-    align-items: flex-start;
+  }
+
+  .context-selectors {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .selector select {
+    width: 100%;
+  }
+
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .roi-hero {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .modal-content {
+    padding: 1.5rem;
+    margin: 1rem;
+    width: calc(100% - 2rem);
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .brand h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-icon {
+    padding: 0.5rem;
+  }
+
+  .logo-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .roi-stat .value {
+    font-size: 1.5rem;
   }
 }

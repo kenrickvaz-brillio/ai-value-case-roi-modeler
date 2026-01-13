@@ -2,6 +2,8 @@
 
 ### "From AI Features to Measurable Business Impact"
 
+**Live Demo: [https://nice-beach-09f65451e.1.azurestaticapps.net](https://nice-beach-09f65451e.1.azurestaticapps.net)**
+
 The **AI Value Case & ROI Modeler** is a premium, interactive web-only demo designed for executives (CFOs, CTOs, and Business Sponsors). It demonstrates how AI initiatives translate from technical features into strategic business outcomes, measurable KPIs, and annualized ROI.
 
 This is a "smoke-and-mirrors" demo meant for boardroom discussions, where all data is mock, deterministic, and simulated to feel real, defensible, and boardroom-ready.
